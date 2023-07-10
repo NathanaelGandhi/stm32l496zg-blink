@@ -3,7 +3,11 @@
 # Author: Nathanael Gandhi | gist.github.com/NathanaelGandhi
 # Notes:  see https://clang.llvm.org/docs/ClangFormatStyleOptions.html
 ################################################################################
+BasedOnStyle: Google
 ---
-DisableFormat: true
-SortIncludes: Never
+################################################################################
+Language: Cpp
+IndentWidth: 4
+UseTab: Never
+ColumnLimit: 80
 ################################################################################
