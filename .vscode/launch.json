@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "name": "stm32l496zg-blink",
+            "cwd": "${workspaceRoot}",
+            "executable": "/workspaces/stm32l496zg-blink/build/stm32l496zg-blink.elf",
+            "request": "attach",
+            "type": "cortex-debug",
+            "servertype": "stutil",
+            "v1": false
+        }
+    ]
+}
