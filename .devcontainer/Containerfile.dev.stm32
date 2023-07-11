@@ -49,9 +49,9 @@ CMD [ "zsh" ]
 ################################################################################
 # Install project tools
 RUN apt install -y \ 
-	git clang-format wget cmake stlink-tools gdb-multiarch 
+	git clang-format wget cmake stlink-tools gdb-multiarch libusb-1.0-0
 	# # build tools for openocd
-	# libusb-1.0-0 telnet openocd
+	# telnet openocd
 
 # Install arm-none-eabi compiler
 RUN wget https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v12.2.1-1.2/xpack-arm-none-eabi-gcc-12.2.1-1.2-linux-x64.tar.gz
